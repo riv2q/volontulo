@@ -79,3 +79,6 @@ static
 #vagrant ignore
 .vagrant/
 tmp.yaml
+
+# angular2
+volontulo_app/node_modules

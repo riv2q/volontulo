@@ -1,0 +1,30 @@
+{
+  "name": "volontulo",
+  "version": "1.0.0",
+  "description": "application for volunteers",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.0.0-rc.2",
+    "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeForPoznan/volontulo.git"
+  },
+  "keywords": [
+    "volunteers",
+    "CodeForPoznan"
+  ],
+  "author": "krystian.rozycki@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeForPoznan/volontulo/issues"
+  },
+  "homepage": "https://github.com/CodeForPoznan/volontulo#readme"
+}
