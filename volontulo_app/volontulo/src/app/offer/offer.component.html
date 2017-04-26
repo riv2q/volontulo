@@ -1,3 +1,55 @@
-<p>
-  offer works!
-</p>
+Volontulo - podejmij pracę jako wolontariusz
+
+home-page
+
+
+<img class="img-responsive center-block" src="#" />
+
+<h2>Dołącz do jednej z ofert:</h2>
+<div class="row offer-thumbnails auto-clear">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+
+        <div class="thumbnail">
+            <a href="#" class="heading-image" style="background-image: #"></a>
+            <div class="caption">
+                <a role="button" class="btn btn-warning join-btn" href="#">Włącz się</a>
+                <h3 class="heading">
+                    <a class="" href="#">{{ o.title }}</a>
+                </h3>
+                <div class="media panel-default">
+                    <div class="media-left panel-heading">
+                        <span aria-hidden="true" class="glyphicon glyphicon-map-marker"></span>
+                    </div>
+                    <div class="media-body panel-body">
+                        location
+                    </div>
+                </div>
+                <div class="media panel-default">
+                    <div class="media-left panel-heading">
+                        <span aria-hidden="true" class="glyphicon glyphicon-time"></span>
+                    </div>
+                    <div class="media-body panel-body">
+                        <span class="is-inline_block"><sup>od </sup>start_</span>
+                        <span class="is-inline_block"><sub>do </sub>end_</span>
+                    </div>
+                </div>
+                <div class="text-right">Organizator: <a class="text-warning" href="{% url 'organization_view' slug=o.organization.name|slugify id_=o.organization.id %}">oraganizacja_</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<p class="lead">Zgłoś swoją ofertę aby znaleźć wolontariuszy do pomocy w akcji!</p>
+
+<div class="media">
+    <div class="media-left media-middle">
+        <a class="btn btn-primary" href="#">Załóż konto</a>
+    </div>
+    <div class="media-left media-middle">
+        <span class="control-label">lub</span>
+    </div>
+    <div class="media-left media-middle">
+        <a class="btn btn-primary" href="#">Zaloguj się</a>
+    </div>
+</div>
+<a class="btn btn-primary" href="#">Zgłoś ofertę</a>

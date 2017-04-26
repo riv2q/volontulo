@@ -1,3 +1,112 @@
-<h1>
-  {{title}}
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Volontulo - {title}</title>
+    </head>
+
+    <body class="s">
+
+        <section class="header">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <nav class="">
+                            <h1 class="navbar-header">
+                                <a href="{% url 'homepage' %}">
+                                    <img src="volontulo/img/volo_logo.svg" alt="Volontulo" />
+                                </a>
+                            </h1>
+                            <div class="pull-right">
+
+                                <a class="btn btn-primary navbar-btn" href="#">Załóż konto</a>
+                                <span class="navbar-text">lub</span>
+                                <a class="btn btn-link navbar-btn" href="#">Zaloguj się</a>
+
+                                <div class="btn-group">
+                                    <button aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" class="btn btn-link dropdown-toggle" type="button">Witaj, email_! <span class="caret"></span></button>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#">Moje konto</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">Panel administracyjny</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <a class="btn btn-info navbar-btn"href="#">Wyloguj <span aria-hidden="true" class="glyphicon glyphicon-log-out"></span></a>
+
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                cos tu byo
+
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="container">
+                <h2 class="hide">Nawigacja</h2>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <h3 class="nav-title">Informacje</h3>
+                        <ul class="nav-list list-unstyled">
+                            <li><a href="#">Strona główna</a></li>
+                            <li><a href="#">Załóż konto</a></li>
+                            <li><a href="#">Kontakt z administratorem</a></li>
+                            <li><a href="#">O nas</a></li>
+                            <li><a href="#">Zapisz się do newslettera</a></li>
+                            <li><a href="#">Regulamin</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <h3 class="nav-title">Strefa organizacji i instytucji</h3>
+                        <ul class="nav-list list-unstyled">
+                            <li><a href="#">Załóż konto</a></li>
+                            <li><a href="#">Dodaj nową ofertę</a></li>
+                            <li><a href="#">Lista organizacji i instytucji</a></li>
+                            <li><a href="#">FAQ dla organizacji i instytucji</a></li>
+                            <li><a href="#">Przyjdź na dyżur</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <h3 class="nav-title">Strefa wolontariusza</h3>
+                        <ul class="nav-list list-unstyled">
+                            <li><a href="#">Załóż konto</a></li>
+                            <li><a href="#">Lista aktualnych ofert</a></li>
+                            <li><a href="#">Archiwum ofert</a></li>
+                            <li><a href="#">Lista organizacji i instytucji</a></li>
+                            <li><a href="#">FAQ dla wolontariuszy</a></li>
+                            <li><a href="#">Przyjdź na dyżur</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="sub-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                        <p class="cooperation-info">Ten serwis powstał wspólnym wysiłkiem we współpracy pomiędzy:</p>
+                    </div>
+                </div>
+                <div class="row logos">
+                    <div class="col-xs-6 col-sm-3 col-sm-offset-3 text-center">
+                        <a target="_blank" href="http://wrk.org.pl/"><img class="img-responsive center-block" src="#" alt="Logo WRK - Wielkopolska Rada Koordynacyjna Związek Organizacji Pozarządowych"></a>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 text-center">
+                        <a target="_blank" href="http://stxnext.pl"><img class="img-responsive center-block" src="#" alt="Logo STX Next"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </body>
+</html>
